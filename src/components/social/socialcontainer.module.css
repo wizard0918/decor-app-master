@@ -1,0 +1,98 @@
+.socialContainer {
+  /*float: right;*/
+  /*position: relative;*/
+  /*margin-right: 10px;*/
+}
+.shareMediaContainer {
+  display: flex;
+}
+
+.shareMediaContainer > div {
+  margin-right: 14px;
+}
+
+.shareMediaContainer > div:first-child {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.mediaContainer {
+  margin-top: -4px;
+  display: flex;
+  margin: 14px 0;
+  justify-content: space-between;
+}
+
+.likeContainer {
+  float: left;
+  cursor: pointer;
+  position: relative;
+  margin-right: 5px;
+}
+
+.shareBtnArrow {
+  display: none;
+}
+
+.saveContainer {
+  float: left;
+  cursor: pointer;
+  position: relative;
+  margin-right: 0px;
+  width: 25px;
+}
+
+.likeContainer div {
+  float: left;
+  line-height: 18px;
+  margin-left: 0px;
+}
+
+.likeContainer div div {
+  width: 100%;
+  margin-right: 0;
+}
+
+.socialContainer svg {
+  padding: 0px !important;
+}
+
+.shareMediaContainer svg {
+  width: 24px;
+  height: 24px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .mediaContainer {
+    width: 100%;
+  }
+
+  .likeContainer {
+    float: left;
+  }
+
+  .saveContainer {
+    float: right;
+    margin-right: 10px;
+  }
+
+  .socialContainer {
+    /* width: 100%;
+    float: left; */
+  }
+
+  .shareBtnArrow {
+    display: block;
+  }
+  .shareMediaContainer {
+    display: flex;
+    margin-left: 5px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .shareMediaContainer > div {
+    margin-right: 2px;
+  }
+}
